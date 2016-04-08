@@ -1,12 +1,12 @@
 {
-    "name": "draperstudio/laravel-currency",
+    "name": "draperstudio/laravel-currencies",
     "type": "library",
     "description": ":package_description",
     "keywords": [
         "draperstudio",
-        "laravel-currency"
+        "laravel-currencies"
     ],
-    "homepage": "https://github.com/draperstudio/laravel-currency",
+    "homepage": "https://github.com/draperstudio/laravel-currencies",
     "license": "MIT",
     "authors": [{
         "name": "DraperStudio",
