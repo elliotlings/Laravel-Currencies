@@ -43,6 +43,6 @@ class SeedCurrencies extends Command
             Currency::create($country);
         }
 
-        $this->info('Currencies seeded!');
+        $this->getOutput()->writeln("<info>Seeded:</info> Currencies");
     }
 }
