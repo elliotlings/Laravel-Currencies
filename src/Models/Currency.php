@@ -16,12 +16,12 @@ use Illuminate\Database\Eloquent\Model;
 class Currency extends Model
 {
     protected $fillable = [
-        'name', 'iso', 'symbol', 'units', 'format'
+        'name', 'iso', 'symbol', 'units', 'format',
     ];
 
     protected $casts = [
-        'iso' => 'array',
+        'iso'    => 'array',
         'symbol' => 'array',
-        'units' => 'array',
+        'units'  => 'array',
     ];
 }

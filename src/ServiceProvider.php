@@ -11,11 +11,8 @@
 
 namespace DraperStudio\Currencies;
 
-use DraperStudio\ServiceProvider\ServiceProvider as BaseProvider;
 use DraperStudio\Currencies\Console\SeedCurrencies;
-use DraperStudio\Currencies\Models\Country;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Cache;
+use DraperStudio\ServiceProvider\ServiceProvider as BaseProvider;
 
 /**
  * Class ServiceProvider.
